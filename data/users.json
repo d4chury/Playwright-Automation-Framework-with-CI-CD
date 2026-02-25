@@ -1,0 +1,21 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "description": "Standard user flow",
+        "expectedBehavior": "success"
+    },
+    {
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "description": "Locked out user error",
+        "expectedBehavior": "error",
+        "expectedMessage": "Epic sadface: Sorry, this user has been locked out."
+    },
+    {
+        "username": "problem_user",
+        "password": "secret_sauce",
+        "description": "Problem user with visual issues",
+        "expectedBehavior": "check_images"
+    }
+]

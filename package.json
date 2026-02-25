@@ -1,0 +1,22 @@
+{
+  "name": "sauce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "pretest": "rm -rf evidence/* test-results/* playwright-report/*",
+    "test:guided": "npx playwright test tests/guided-exploration.spec.ts",
+    "test:random": "npx playwright test tests/random-discovery.spec.ts",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
+}
