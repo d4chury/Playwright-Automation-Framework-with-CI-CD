@@ -100,6 +100,6 @@ El proyecto incluye un pipeline configurado en `.github/workflows/playwright.yml
    - Guarda el reporte HTML por 30 días.
    - Guarda las capturas de evidencia (`evidence/`) por 7 días incluso si los tests fallan.
 
-> **Nota**: Una vez configurado en GitHub, el reporte estará disponible en `https://<usuario>.github.io/<repositorio>/`.
+> **Nota**: Una vez configurado en GitHub, el reporte estará disponible en `[https://d4chury.github.io/Playwright-Automation-Framework-with-CI-CD/]`.
 
 
